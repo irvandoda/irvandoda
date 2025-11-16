@@ -80,7 +80,7 @@
 
 <div align="center">
 
-<img src="/assets/projects-neon.svg" alt="Futuristic animated projects board for Irvandoda" width="100%" />
+<img src="https://raw.githubusercontent.com/irvandoda/irvandoda/main/assets/projects-neon.svg" alt="Projects — Neon animated board" width="100%" />
 
 </div>
 
@@ -89,7 +89,7 @@
 
 <div align="center">
 
-<img src="/assets/experience-neon.svg" alt="Futuristic animated experience board for Irvandoda" width="100%" />
+<img src="https://raw.githubusercontent.com/irvandoda/irvandoda/main/assets/experience-neon.svg" alt="Experience — Neon animated board" width="100%" />
 
 </div>
 
@@ -98,7 +98,7 @@
 
 <div align="center">
 
-<img src="/assets/focus-learning.svg" alt="Futuristic animated focus and learning board for Irvandoda" width="100%" />
+<img src="https://raw.githubusercontent.com/irvandoda/irvandoda/main/assets/focus-learning.svg" alt="Focus & Learning — Neon animated board" width="100%" />
 
 </div>
 
