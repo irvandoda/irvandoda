@@ -24,7 +24,7 @@
 </div>
 
 
-## Quick Stats & Indicators
+## Status
 
 <div align="center">
 
@@ -50,13 +50,20 @@
 
 ### Focus Mix
 
+<div align="center">
+
+<img src="/assets/focus-mix.svg" alt="Animated focus mix indicators for Irvandoda" width="860" />
+
+</div>
+
 - Web Development: ▰▰▰▰▰▰▰▰▱▱ 80%
-- SEO & Content: ▰▰▰▰▰▰▱▱▱▱ 60%
-- IT Support & Infra: ▰▰▰▰▰▱▱▱▱▱ 50%
-- Digital Ads & Analytics: ▰▰▰▰▱▱▱▱▱▱ 40%
+- SEO & Content: ▰▰▰▰▰▰▰▰▰▱ 90%
+- IT Support & Infra: ▰▰▰▰▰▰▰▱▱▱ 75%
+- Digital Ads & Analytics: ▰▰▰▰▰▰▰▰▱▱ 85%
+- Flutter (Mobile Apps): ▰▰▰▰▰▰▰▰▱▱ 80%
 
 
-## Tech Stack & Tools (Futuristic Grid)
+## Tech Stack & Tools
 
 <div align="center">
 
@@ -194,11 +201,20 @@
 </div>
 
 
-## Skills Radar (Animated)
+## Skills Radar
 
 <div align="center">
 
 <img src="/assets/skills-radar.svg" alt="Animated skills radar for Irvandoda" width="720" />
+
+</div>
+
+
+## Infographics
+
+<div align="center">
+
+<img src="/assets/infographic-neon.svg" alt="Futuristic infographic for Irvandoda" width="100%" />
 
 </div>
 

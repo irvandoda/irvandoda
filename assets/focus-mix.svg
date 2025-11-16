@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="320" viewBox="0 0 1100 320" role="img" aria-label="Animated Focus Mix Indicators for Irvandoda">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1f"/>
+      <stop offset="100%" stop-color="#0f1936"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#FF00C7"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b1"/>
+      <feGaussianBlur stdDeviation="6" result="b2"/>
+      <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="320" fill="url(#bg)"/>
+
+  <g font-family="Verdana,Segoe UI,Arial,sans-serif" fill="#cbd5e1">
+    <text x="32" y="40" font-size="22" fill="#a5b4fc">Focus Mix — Animated</text>
+  </g>
+
+  <!-- Bar component: label at left, bar bg, animated bar fg to target width, percent at right -->
+  <!-- Layout vars -->
+  <!-- xStart=32, labelWidth=240, barX=290, barWidth=700, rowHeight=48 -->
+
+  <!-- Row 1: Web Development 80% -->
+  <g transform="translate(32,70)" filter="url(#glow)">
+    <text x="0" y="16" font-size="16" fill="#93c5fd">Web Development</text>
+    <rect x="258" y="-10" width="780" height="14" rx="7" fill="#0b1120" opacity="0.9"/>
+    <rect x="258" y="-10" width="624" height="14" rx="7" fill="url(#neon)">
+      <animate attributeName="width" values="0;624;585;624" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1040" y="16" font-size="16" text-anchor="end" fill="#e2e8f0">80%</text>
+  </g>
+
+  <!-- Row 2: SEO & Content 90% -->
+  <g transform="translate(32,118)" filter="url(#glow)">
+    <text x="0" y="16" font-size="16" fill="#93c5fd">SEO &amp; Content</text>
+    <rect x="258" y="-10" width="780" height="14" rx="7" fill="#0b1120" opacity="0.9"/>
+    <rect x="258" y="-10" width="702" height="14" rx="7" fill="url(#neon)">
+      <animate attributeName="width" values="0;702;660;702" dur="6.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1040" y="16" font-size="16" text-anchor="end" fill="#e2e8f0">90%</text>
+  </g>
+
+  <!-- Row 3: IT Support & Infra 75% -->
+  <g transform="translate(32,166)" filter="url(#glow)">
+    <text x="0" y="16" font-size="16" fill="#93c5fd">IT Support &amp; Infra</text>
+    <rect x="258" y="-10" width="780" height="14" rx="7" fill="#0b1120" opacity="0.9"/>
+    <rect x="258" y="-10" width="585" height="14" rx="7" fill="url(#neon)">
+      <animate attributeName="width" values="0;585;560;585" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1040" y="16" font-size="16" text-anchor="end" fill="#e2e8f0">75%</text>
+  </g>
+
+  <!-- Row 4: Digital Ads & Analytics 85% -->
+  <g transform="translate(32,214)" filter="url(#glow)">
+    <text x="0" y="16" font-size="16" fill="#93c5fd">Digital Ads &amp; Analytics</text>
+    <rect x="258" y="-10" width="780" height="14" rx="7" fill="#0b1120" opacity="0.9"/>
+    <rect x="258" y="-10" width="663" height="14" rx="7" fill="url(#neon)">
+      <animate attributeName="width" values="0;663;630;663" dur="6.25s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1040" y="16" font-size="16" text-anchor="end" fill="#e2e8f0">85%</text>
+  </g>
+
+  <!-- Row 5: Flutter (Mobile Apps) 80% -->
+  <g transform="translate(32,262)" filter="url(#glow)">
+    <text x="0" y="16" font-size="16" fill="#93c5fd">Flutter (Mobile Apps)</text>
+    <rect x="258" y="-10" width="780" height="14" rx="7" fill="#0b1120" opacity="0.9"/>
+    <rect x="258" y="-10" width="624" height="14" rx="7" fill="url(#neon)">
+      <animate attributeName="width" values="0;624;585;624" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1040" y="16" font-size="16" text-anchor="end" fill="#e2e8f0">80%</text>
+  </g>
+
+  <!-- Bottom moving accent -->
+  <rect x="-200" y="304" width="220" height="3" fill="url(#neon)" opacity="0.7">
+    <animate attributeName="x" values="-200;1100;-200" dur="6s" repeatCount="indefinite"/>
+  </rect>
+</svg>
+
+

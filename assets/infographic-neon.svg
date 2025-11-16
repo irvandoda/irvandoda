@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Irvandoda Futuristic Infographic">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1f"/>
+      <stop offset="100%" stop-color="#0f1936"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#FF00C7"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b1"/>
+      <feGaussianBlur stdDeviation="6" result="b2"/>
+      <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <g font-family="Verdana,Segoe UI,Arial,sans-serif">
+    <text x="32" y="44" font-size="22" fill="#a5b4fc">Infographic</text>
+    <rect x="28" y="56" width="1144" height="2" fill="#06b6d4" opacity="0.35"/>
+  </g>
+
+  <!-- Left: Donut charts -->
+  <g transform="translate(80,90)" filter="url(#glow)">
+    <!-- Donut function via arcs -->
+    <!-- Web Dev 80% -->
+    <g transform="translate(0,0)">
+      <circle cx="0" cy="0" r="60" fill="none" stroke="#0b1120" stroke-width="14" opacity="0.9"/>
+      <path d="M0,-60 A60,60 0 1,1 -35.3,49.3" fill="none" stroke="url(#neon)" stroke-width="14" stroke-linecap="round">
+        <animate attributeName="stroke-dasharray" values="0 377;302 75;285 92;302 75" dur="6s" repeatCount="indefinite"/>
+      </path>
+      <text x="0" y="6" text-anchor="middle" font-size="20" fill="#e2e8f0">80%</text>
+      <text x="0" y="88" text-anchor="middle" font-size="14" fill="#93c5fd">Web Dev</text>
+    </g>
+    <!-- SEO 90% -->
+    <g transform="translate(180,0)">
+      <circle cx="0" cy="0" r="60" fill="none" stroke="#0b1120" stroke-width="14" opacity="0.9"/>
+      <path d="M0,-60 A60,60 0 1,1 -58,15" fill="none" stroke="url(#neon)" stroke-width="14" stroke-linecap="round">
+        <animate attributeName="stroke-dasharray" values="0 377;339 38;325 52;339 38" dur="6.5s" repeatCount="indefinite"/>
+      </path>
+      <text x="0" y="6" text-anchor="middle" font-size="20" fill="#e2e8f0">90%</text>
+      <text x="0" y="88" text-anchor="middle" font-size="14" fill="#93c5fd">SEO</text>
+    </g>
+    <!-- IT & Infra 75% -->
+    <g transform="translate(360,0)">
+      <circle cx="0" cy="0" r="60" fill="none" stroke="#0b1120" stroke-width="14" opacity="0.9"/>
+      <path d="M0,-60 A60,60 0 1,1 -42.4,42.4" fill="none" stroke="url(#neon)" stroke-width="14" stroke-linecap="round">
+        <animate attributeName="stroke-dasharray" values="0 377;283 94;265 112;283 94" dur="6s" repeatCount="indefinite"/>
+      </path>
+      <text x="0" y="6" text-anchor="middle" font-size="20" fill="#e2e8f0">75%</text>
+      <text x="0" y="88" text-anchor="middle" font-size="14" fill="#93c5fd">IT &amp; Infra</text>
+    </g>
+    <!-- Ads & Analytics 85% -->
+    <g transform="translate(540,0)">
+      <circle cx="0" cy="0" r="60" fill="none" stroke="#0b1120" stroke-width="14" opacity="0.9"/>
+      <path d="M0,-60 A60,60 0 1,1 -53,31" fill="none" stroke="url(#neon)" stroke-width="14" stroke-linecap="round">
+        <animate attributeName="stroke-dasharray" values="0 377;321 56;300 77;321 56" dur="6.25s" repeatCount="indefinite"/>
+      </path>
+      <text x="0" y="6" text-anchor="middle" font-size="20" fill="#e2e8f0">85%</text>
+      <text x="0" y="88" text-anchor="middle" font-size="14" fill="#93c5fd">Ads &amp; Analytics</text>
+    </g>
+    <!-- Flutter 80% -->
+    <g transform="translate(720,0)">
+      <circle cx="0" cy="0" r="60" fill="none" stroke="#0b1120" stroke-width="14" opacity="0.9"/>
+      <path d="M0,-60 A60,60 0 1,1 -35.3,49.3" fill="none" stroke="url(#neon)" stroke-width="14" stroke-linecap="round">
+        <animate attributeName="stroke-dasharray" values="0 377;302 75;285 92;302 75" dur="6s" repeatCount="indefinite"/>
+      </path>
+      <text x="0" y="6" text-anchor="middle" font-size="20" fill="#e2e8f0">80%</text>
+      <text x="0" y="88" text-anchor="middle" font-size="14" fill="#93c5fd">Flutter</text>
+    </g>
+  </g>
+
+  <!-- Right: Gauge + KPI chips -->
+  <g transform="translate(940,96)" font-family="Verdana,Segoe UI,Arial,sans-serif" filter="url(#glow)">
+    <!-- Semi-circle gauge 0..100 -->
+    <path d="M-100,80 A110,110 0 0,1 100,80" fill="none" stroke="#0b1120" stroke-width="14"/>
+    <path id="needle" d="M0,80 L0,0" stroke="url(#neon)" stroke-width="5" stroke-linecap="round">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate"
+                        values="-150 0 80;150 0 80;-150 0 80" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="0" cy="80" r="6" fill="#e2e8f0"/>
+    <text x="0" y="120" text-anchor="middle" font-size="18" fill="#e2e8f0">Load</text>
+
+    <!-- KPI chips -->
+    <g transform="translate(-120,160)">
+      <rect x="0" y="0" rx="10" ry="10" width="220" height="34" fill="#0f1b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="110" y="22" text-anchor="middle" font-size="14" fill="#cbd5e1">TTFB: 210 ms</text>
+    </g>
+    <g transform="translate(-120,202)">
+      <rect x="0" y="0" rx="10" ry="10" width="220" height="34" fill="#0f1b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="110" y="22" text-anchor="middle" font-size="14" fill="#cbd5e1">Uptime: 99.9%</text>
+    </g>
+    <g transform="translate(-120,244)">
+      <rect x="0" y="0" rx="10" ry="10" width="220" height="34" fill="#0f1b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="110" y="22" text-anchor="middle" font-size="14" fill="#cbd5e1">Deploys: 18/mo</text>
+    </g>
+  </g>
+</svg>
+
+
