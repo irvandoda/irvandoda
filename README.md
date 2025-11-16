@@ -56,11 +56,6 @@
 
 </div>
 
-- Web Development: ▰▰▰▰▰▰▰▰▱▱ 80%
-- SEO & Content: ▰▰▰▰▰▰▰▰▰▱ 90%
-- IT Support & Infra: ▰▰▰▰▰▰▰▱▱▱ 75%
-- Digital Ads & Analytics: ▰▰▰▰▰▰▰▰▱▱ 85%
-- Flutter (Mobile Apps): ▰▰▰▰▰▰▰▰▱▱ 80%
 
 
 ## Tech Stack & Tools
