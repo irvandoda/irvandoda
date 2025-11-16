@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="/assets/banner-futuristic.png" alt="Futuristic neon cyber banner for Irvandoda" width="100%" />
+<img src="/assets/banner-futuristic.svg" alt="Futuristic neon cyber banner for Irvandoda" width="100%" />
 
 <h1 style="margin-top: 16px;">Hi, I'm <strong>Irvandoda</strong> ⚡</h1>
 <h3>IT Support • WordPress & Laravel Developer • SEO Specialist • Digital Marketer</h3>

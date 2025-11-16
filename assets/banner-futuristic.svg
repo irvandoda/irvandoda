@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Irvandoda futuristic neon banner">
+  <defs>
+    <!-- Background gradient with animated stops -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1020">
+        <animate attributeName="stop-color" values="#0b1020;#121735;#0b1020" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#101b3a">
+        <animate attributeName="stop-color" values="#101b3a;#1b2752;#101b3a" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Neon gradient for text -->
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF">
+        <animate attributeName="offset" values="0%;30%;0%" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#7C3AED">
+        <animate attributeName="offset" values="50%;70%;50%" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#FF00C7">
+        <animate attributeName="offset" values="100%;90%;100%" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Neon glow filter -->
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur1"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur2"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur3"/>
+      <feMerge>
+        <feMergeNode in="blur3"/>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Scanline gradient -->
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="50%" stop-color="rgba(0,229,255,0.25)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+
+    <!-- Grid line pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#182347" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="300" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid -->
+  <rect x="0" y="0" width="1200" height="300" fill="url(#grid)" opacity="0.35"/>
+
+  <!-- Diagonal neon lines (moving) -->
+  <g opacity="0.35">
+    <g>
+      <line x1="-200" y1="50" x2="200" y2="-150" stroke="url(#neonGrad)" stroke-width="2" filter="url(#neonGlow)">
+        <animate attributeName="x1" values="-200;1400;-200" dur="16s" repeatCount="indefinite"/>
+        <animate attributeName="x2" values="200;1800;200" dur="16s" repeatCount="indefinite"/>
+      </line>
+      <line x1="-400" y1="250" x2="0" y2="50" stroke="url(#neonGrad)" stroke-width="2" filter="url(#neonGlow)">
+        <animate attributeName="x1" values="-400;1200;-400" dur="18s" repeatCount="indefinite"/>
+        <animate attributeName="x2" values="0;1600;0" dur="18s" repeatCount="indefinite"/>
+      </line>
+    </g>
+  </g>
+
+  <!-- Main title -->
+  <g transform="translate(600,140)">
+    <text x="0" y="0" text-anchor="middle" font-family="Verdana,Segoe UI,Arial,sans-serif"
+          font-size="64" font-weight="700" letter-spacing="2"
+          fill="url(#neonGrad)" filter="url(#neonGlow)">
+      IRVANDODA
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <g transform="translate(600,190)">
+    <text x="0" y="0" text-anchor="middle" font-family="Verdana,Segoe UI,Arial,sans-serif"
+          font-size="20" fill="#a5b4fc">
+      IT Support • WordPress &amp; Laravel Developer • SEO Specialist • Digital Marketer
+    </text>
+  </g>
+
+  <!-- Moving scanline (neon bar) -->
+  <g opacity="0.6" filter="url(#neonGlow)">
+    <rect x="100" y="220" width="1000" height="2" fill="#00E5FF" opacity="0.25"/>
+    <rect x="-200" y="218" width="240" height="6" fill="url(#scanGrad)">
+      <animate attributeName="x" values="-200;1200;-200" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Corner accents -->
+  <g opacity="0.8" filter="url(#neonGlow)">
+    <path d="M40,40 h80" stroke="#00E5FF" stroke-width="3" fill="none"/>
+    <path d="M40,40 v40" stroke="#7C3AED" stroke-width="3" fill="none"/>
+    <path d="M1160,260 h-80" stroke="#FF00C7" stroke-width="3" fill="none"/>
+    <path d="M1160,260 v-40" stroke="#06B6D4" stroke-width="3" fill="none"/>
+  </g>
+</svg>
+
+
