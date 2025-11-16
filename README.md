@@ -52,7 +52,7 @@
 
 <div align="center">
 
-<img src="/assets/focus-mix.svg" alt="Animated focus mix indicators for Irvandoda" width="860" />
+<img src="/assets/focus-mix.svg" alt="Animated focus mix indicators for Irvandoda" width="860" style="max-width: 100%;" />
 
 </div>
 
@@ -67,31 +67,11 @@
 
 <div align="center">
 
-<p><em>Tools I use to build, monitor, and scale web projects</em></p>
+<img src="/assets/stack-grid.svg" alt="Futuristic tech stack grid for Irvandoda" width="100%" />
 
-<p>
-  <img src="https://skillicons.dev/icons?i=php,laravel,wordpress,js,html,css,bootstrap,tailwind,flutter" alt="Languages & Frameworks icons" />
-</p>
+<br/>
 
-<p><em>Web & CMS</em></p>
-<p>
-  <img src="https://skillicons.dev/icons?i=wordpress,html,css,bootstrap,tailwind" alt="Web & CMS icons" />
-</p>
-
-<p><em>Databases</em></p>
-<p>
-  <img src="https://skillicons.dev/icons?i=mysql" alt="Databases icons" />
-</p>
-
-<p><em>DevOps & Tools</em></p>
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,linux,nginx" alt="DevOps & Tools icons" />
-</p>
-
-<p><em>Marketing & Analytics</em></p>
-<p>
-  Google Search Console • Google Analytics • Meta Ads Manager • TikTok Ads • Mail • UTM • A/B Testing
-</p>
+<img src="https://skillicons.dev/icons?i=php,laravel,wordpress,js,html,css,bootstrap,tailwind,flutter,mysql,git,github,linux,nginx" alt="Skillicons for stacks" />
 
 </div>
 
@@ -100,96 +80,27 @@
 
 <div align="center">
 
-<table>
-  <tr>
-    <td>
-      <strong>SPM — Seller Command Center</strong><br/>
-      Laravel 11 powered dashboard for sellers to manage products, orders, and analytics.<br/>
-      <code>Laravel</code> <code>MySQL</code> <code>Tailwind</code><br/>
-      <img alt="Status: In Progress" src="https://img.shields.io/badge/STATUS-IN%20PROGRESS-f59e0b?style=flat-square">
-      • <em>Private repo</em>
-    </td>
-    <td>
-      <strong>Lindungin — WordPress Security Plugin</strong><br/>
-      Lightweight security hardening and login protection for WordPress sites.<br/>
-      <code>WordPress</code> <code>Plugin</code> <code>PHP</code><br/>
-      <img alt="Status: Experimental" src="https://img.shields.io/badge/STATUS-EXPERIMENTAL-8b5cf6?style=flat-square">
-      • <em>Private repo</em>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>Notif.in — Login Notification Plugin</strong><br/>
-      Instant email notifications for WP admin logins with security context.<br/>
-      <code>WordPress</code> <code>Plugin</code> <code>PHP</code><br/>
-      <img alt="Status: Active" src="https://img.shields.io/badge/STATUS-ACTIVE-10b981?style=flat-square">
-      • <em>Repo soon</em>
-    </td>
-    <td>
-      <strong>Irvandoda Themes — SEO Optimized WP Theme</strong><br/>
-      Clean, fast, and schema-friendly WordPress theme optimized for SEO & Core Web Vitals.<br/>
-      <code>WordPress</code> <code>Theme</code> <code>SEO</code><br/>
-      <img alt="Status: Planned" src="https://img.shields.io/badge/STATUS-PLANNED-64748b?style=flat-square">
-      • <em>In design</em>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>DMarketing — Email & Marketing Tools</strong><br/>
-      Utilities for campaign tracking, UTM automation, and reporting templates.<br/>
-      <code>Automation</code> <code>Analytics</code> <code>Reporting</code><br/>
-      <img alt="Status: In Progress" src="https://img.shields.io/badge/STATUS-IN%20PROGRESS-f59e0b?style=flat-square">
-      • <em>Private repo</em>
-    </td>
-    <td>
-      <strong>Service Desk Toolkit</strong><br/>
-      Practical IT support scripts/checklists for faster troubleshooting workflows.<br/>
-      <code>IT Support</code> <code>Docs</code> <code>SOP</code><br/>
-      <img alt="Status: Active" src="https://img.shields.io/badge/STATUS-ACTIVE-10b981?style=flat-square">
-      • <em>Docs</em>
-    </td>
-  </tr>
-</table>
+<img src="/assets/projects-neon.svg" alt="Futuristic animated projects board for Irvandoda" width="100%" />
 
 </div>
 
 
 ## Experience / What I Do
 
-<table>
-  <tr>
-    <td valign="top" width="50%">
+<div align="center">
 
-- IT Support & Troubleshooting
-- Website Building & Optimization
-- SEO & Content Strategy
-- Digital Ads & E-commerce Optimization
+<img src="/assets/experience-neon.svg" alt="Futuristic animated experience board for Irvandoda" width="100%" />
 
-    </td>
-    <td valign="top" width="50%">
-
-- Stable systems, faster resolution times
-- Lightweight, maintainable codebases
-- Higher rankings, better CTR & conversions
-- Clear reporting, measurable growth
-
-    </td>
-  </tr>
-</table>
+</div>
 
 
 ## Current Focus & Learning
 
-### 🚀 Currently focusing on
-- Improving Laravel SaaS architecture
-- Building lightweight WordPress plugins
-- Experimenting with AI-assisted workflows for dev & marketing
-- Hardening WordPress security baselines
+<div align="center">
 
-### 📚 Currently learning
-- Advanced Laravel patterns (Queues, Events, Multi-tenant)
-- Performance-first WP theming and plugin architecture
-- Analytics-driven SEO and content ops
+<img src="/assets/focus-learning.svg" alt="Futuristic animated focus and learning board for Irvandoda" width="100%" />
+
+</div>
 
 
 ## Activity Graph
@@ -210,13 +121,7 @@
 </div>
 
 
-## Infographics
 
-<div align="center">
-
-<img src="/assets/infographic-neon.svg" alt="Futuristic infographic for Irvandoda" width="100%" />
-
-</div>
 
 
 ## Connect With Me

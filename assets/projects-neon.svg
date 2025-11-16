@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="Irvandoda Futuristic Projects Board">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1f"/>
+      <stop offset="100%" stop-color="#0f1936"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#FF00C7"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b1"/>
+      <feGaussianBlur stdDeviation="7" result="b2"/>
+      <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="520" fill="url(#bg)"/>
+
+  <g font-family="Verdana,Segoe UI,Arial,sans-serif" fill="#cbd5e1">
+    <text x="32" y="44" font-size="20" fill="#a5b4fc">Featured Projects</text>
+  </g>
+  <rect x="28" y="56" width="1144" height="2" fill="#06b6d4" opacity="0.35"/>
+
+  <!-- Cards grid 2 x 3 with animated status bars -->
+  <g transform="translate(32,84)" filter="url(#glow)" font-family="Verdana,Segoe UI,Arial,sans-serif">
+    <!-- Card component: 360x130 -->
+    <!-- SPM -->
+    <g>
+      <rect width="360" height="130" rx="14" fill="#101b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="16" y="30" font-size="16" fill="#e2e8f0" font-weight="700">SPM — Seller Command Center</text>
+      <text x="16" y="56" font-size="13" fill="#cbd5e1">Dashboard Laravel 11 untuk manajemen produk, order, analytics.</text>
+      <text x="16" y="78" font-size="12" fill="#a5b4fc"><tspan>Laravel</tspan> • <tspan>MySQL</tspan> • <tspan>Tailwind</tspan></text>
+      <rect x="16" y="96" width="328" height="6" rx="3" fill="#0b1120"/>
+      <rect x="16" y="96" width="220" height="6" rx="3" fill="url(#neon)">
+        <animate attributeName="width" values="40;220;200;220" dur="6s" repeatCount="indefinite"/>
+      </rect>
+      <text x="312" y="118" font-size="12" fill="#f59e0b" text-anchor="end">IN PROGRESS</text>
+    </g>
+
+    <!-- Lindungin -->
+    <g transform="translate(392,0)">
+      <rect width="360" height="130" rx="14" fill="#101b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="16" y="30" font-size="16" fill="#e2e8f0" font-weight="700">Lindungin — WP Security Plugin</text>
+      <text x="16" y="56" font-size="13" fill="#cbd5e1">Hardening ringan & login protection untuk WordPress.</text>
+      <text x="16" y="78" font-size="12" fill="#a5b4fc"><tspan>WordPress</tspan> • <tspan>Plugin</tspan> • <tspan>PHP</tspan></text>
+      <rect x="16" y="96" width="328" height="6" rx="3" fill="#0b1120"/>
+      <rect x="16" y="96" width="130" height="6" rx="3" fill="url(#neon)">
+        <animate attributeName="width" values="40;130;150;130" dur="6.2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="312" y="118" font-size="12" fill="#8b5cf6" text-anchor="end">EXPERIMENTAL</text>
+    </g>
+
+    <!-- Notif.in -->
+    <g transform="translate(784,0)">
+      <rect width="360" height="130" rx="14" fill="#101b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="16" y="30" font-size="16" fill="#e2e8f0" font-weight="700">Notif.in — Login Notification</text>
+      <text x="16" y="56" font-size="13" fill="#cbd5e1">Notifikasi email instan saat admin login dengan konteks security.</text>
+      <text x="16" y="78" font-size="12" fill="#a5b4fc"><tspan>WordPress</tspan> • <tspan>Plugin</tspan> • <tspan>PHP</tspan></text>
+      <rect x="16" y="96" width="328" height="6" rx="3" fill="#0b1120"/>
+      <rect x="16" y="96" width="328" height="6" rx="3" fill="url(#neon)">
+        <animate attributeName="width" values="40;328;300;328" dur="6.5s" repeatCount="indefinite"/>
+      </rect>
+      <text x="312" y="118" font-size="12" fill="#10b981" text-anchor="end">ACTIVE</text>
+    </g>
+
+    <!-- Irvandoda Themes -->
+    <g transform="translate(0,160)">
+      <rect width="360" height="130" rx="14" fill="#101b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="16" y="30" font-size="16" fill="#e2e8f0" font-weight="700">Irvandoda Themes — SEO WP Theme</text>
+      <text x="16" y="56" font-size="13" fill="#cbd5e1">Theme cepat dan schema-friendly untuk SEO & CWV.</text>
+      <text x="16" y="78" font-size="12" fill="#a5b4fc"><tspan>WordPress</tspan> • <tspan>Theme</tspan> • <tspan>SEO</tspan></text>
+      <rect x="16" y="96" width="328" height="6" rx="3" fill="#0b1120"/>
+      <rect x="16" y="96" width="80" height="6" rx="3" fill="url(#neon)">
+        <animate attributeName="width" values="40;80;120;80" dur="6s" repeatCount="indefinite"/>
+      </rect>
+      <text x="312" y="118" font-size="12" fill="#64748b" text-anchor="end">PLANNED</text>
+    </g>
+
+    <!-- DMarketing -->
+    <g transform="translate(392,160)">
+      <rect width="360" height="130" rx="14" fill="#101b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="16" y="30" font-size="16" fill="#e2e8f0" font-weight="700">DMarketing — Email & Tools</text>
+      <text x="16" y="56" font-size="13" fill="#cbd5e1">UTM automation, pelacakan kampanye, & template report.</text>
+      <text x="16" y="78" font-size="12" fill="#a5b4fc"><tspan>Automation</tspan> • <tspan>Analytics</tspan> • <tspan>Reporting</tspan></text>
+      <rect x="16" y="96" width="328" height="6" rx="3" fill="#0b1120"/>
+      <rect x="16" y="96" width="200" height="6" rx="3" fill="url(#neon)">
+        <animate attributeName="width" values="40;200;180;200" dur="6.3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="312" y="118" font-size="12" fill="#f59e0b" text-anchor="end">IN PROGRESS</text>
+    </g>
+
+    <!-- Service Desk Toolkit -->
+    <g transform="translate(784,160)">
+      <rect width="360" height="130" rx="14" fill="#101b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="16" y="30" font-size="16" fill="#e2e8f0" font-weight="700">Service Desk Toolkit</text>
+      <text x="16" y="56" font-size="13" fill="#cbd5e1">Skrip & checklist IT support untuk troubleshooting cepat.</text>
+      <text x="16" y="78" font-size="12" fill="#a5b4fc"><tspan>IT Support</tspan> • <tspan>Docs</tspan> • <tspan>SOP</tspan></text>
+      <rect x="16" y="96" width="328" height="6" rx="3" fill="#0b1120"/>
+      <rect x="16" y="96" width="328" height="6" rx="3" fill="url(#neon)">
+        <animate attributeName="width" values="40;328;300;328" dur="6.8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="312" y="118" font-size="12" fill="#10b981" text-anchor="end">ACTIVE</text>
+    </g>
+  </g>
+
+  <!-- Moving accent -->
+  <rect x="-200" y="500" width="220" height="3" fill="url(#neon)" opacity="0.7">
+    <animate attributeName="x" values="-200;1200;-200" dur="6s" repeatCount="indefinite"/>
+  </rect>
+</svg>
+
+

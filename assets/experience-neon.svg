@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Irvandoda Experience & Value Neon Board">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1f"/>
+      <stop offset="100%" stop-color="#0f1936"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#FF00C7"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b1"/>
+      <feGaussianBlur stdDeviation="7" result="b2"/>
+      <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="340" fill="url(#bg)"/>
+
+  <g font-family="Verdana,Segoe UI,Arial,sans-serif" fill="#cbd5e1">
+    <text x="32" y="44" font-size="20" fill="#a5b4fc">Experience / What I Do</text>
+  </g>
+  <rect x="28" y="56" width="1144" height="2" fill="#06b6d4" opacity="0.35"/>
+
+  <!-- Two neon panels -->
+  <g transform="translate(32,84)" filter="url(#glow)" font-family="Verdana,Segoe UI,Arial,sans-serif">
+    <!-- Services -->
+    <g>
+      <rect width="540" height="200" rx="14" fill="#101b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="16" y="28" font-size="16" fill="#93c5fd">Services</text>
+      <g font-size="14" fill="#e2e8f0">
+        <text x="24" y="58">• IT Support &amp; Troubleshooting</text>
+        <text x="24" y="84">• Website Building &amp; Optimization</text>
+        <text x="24" y="110">• SEO &amp; Content Strategy</text>
+        <text x="24" y="136">• Digital Ads &amp; E-commerce Optimization</text>
+        <text x="24" y="162">• Mobile Apps (Flutter)</text>
+      </g>
+      <rect x="16" y="174" width="508" height="4" fill="#0b1120"/>
+      <rect x="16" y="174" width="360" height="4" fill="url(#neon)">
+        <animate attributeName="width" values="40;360;320;360" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Value -->
+    <g transform="translate(580,0)">
+      <rect width="540" height="200" rx="14" fill="#101b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="16" y="28" font-size="16" fill="#93c5fd">Value</text>
+      <g font-size="14" fill="#e2e8f0">
+        <text x="24" y="58">• Stable systems, faster resolution times</text>
+        <text x="24" y="84">• Lightweight, maintainable codebases</text>
+        <text x="24" y="110">• Higher rankings, better CTR &amp; conversions</text>
+        <text x="24" y="136">• Clear reporting, measurable growth</text>
+      </g>
+      <rect x="16" y="174" width="508" height="4" fill="#0b1120"/>
+      <rect x="16" y="174" width="420" height="4" fill="url(#neon)">
+        <animate attributeName="width" values="40;420;380;420" dur="6.2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- Moving accent -->
+  <rect x="-200" y="320" width="220" height="3" fill="url(#neon)" opacity="0.7">
+    <animate attributeName="x" values="-200;1200;-200" dur="6s" repeatCount="indefinite"/>
+  </rect>
+</svg>
+
+

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Irvandoda Current Focus & Learning">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1f"/>
+      <stop offset="100%" stop-color="#0f1936"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#FF00C7"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b1"/>
+      <feGaussianBlur stdDeviation="7" result="b2"/>
+      <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" fill="url(#bg)"/>
+
+  <g font-family="Verdana,Segoe UI,Arial,sans-serif" fill="#cbd5e1">
+    <text x="32" y="44" font-size="20" fill="#a5b4fc">Current Focus &amp; Learning</text>
+  </g>
+  <rect x="28" y="56" width="1144" height="2" fill="#06b6d4" opacity="0.35"/>
+
+  <!-- Two columns -->
+  <g transform="translate(32,84)" filter="url(#glow)" font-family="Verdana,Segoe UI,Arial,sans-serif">
+    <!-- Focus -->
+    <g>
+      <rect width="540" height="180" rx="14" fill="#101b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="16" y="28" font-size="16" fill="#93c5fd">🚀 Currently focusing on</text>
+      <g font-size="14" fill="#e2e8f0">
+        <text x="24" y="58">• Improving Laravel SaaS architecture</text>
+        <text x="24" y="84">• Building lightweight WordPress plugins</text>
+        <text x="24" y="110">• Experimenting with AI-assisted workflows</text>
+        <text x="24" y="136">• Hardening WordPress security baselines</text>
+      </g>
+      <rect x="16" y="148" width="508" height="4" fill="#0b1120"/>
+      <rect x="16" y="148" width="380" height="4" fill="url(#neon)">
+        <animate attributeName="width" values="40;380;340;380" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Learning -->
+    <g transform="translate(580,0)">
+      <rect width="540" height="180" rx="14" fill="#101b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="16" y="28" font-size="16" fill="#93c5fd">📚 Currently learning</text>
+      <g font-size="14" fill="#e2e8f0">
+        <text x="24" y="58">• Advanced Laravel (Queues, Events, Multi-tenant)</text>
+        <text x="24" y="84">• Performance-first WP theming &amp; plugin architecture</text>
+        <text x="24" y="110">• Analytics-driven SEO and content ops</text>
+      </g>
+      <rect x="16" y="148" width="508" height="4" fill="#0b1120"/>
+      <rect x="16" y="148" width="420" height="4" fill="url(#neon)">
+        <animate attributeName="width" values="40;420;380;420" dur="6.2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- Moving accent -->
+  <rect x="-200" y="300" width="220" height="3" fill="url(#neon)" opacity="0.7">
+    <animate attributeName="x" values="-200;1200;-200" dur="6s" repeatCount="indefinite"/>
+  </rect>
+</svg>
+
+

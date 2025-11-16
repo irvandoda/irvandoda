@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Irvandoda Futuristic Tech Stack Grid">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1f"/>
+      <stop offset="100%" stop-color="#0f1936"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#FF00C7"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b1"/>
+      <feGaussianBlur stdDeviation="7" result="b2"/>
+      <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="380" fill="url(#bg)"/>
+
+  <g font-family="Verdana,Segoe UI,Arial,sans-serif" fill="#cbd5e1">
+    <text x="32" y="44" font-size="20" fill="#a5b4fc">Tech Stack &amp; Tools</text>
+  </g>
+  <rect x="28" y="56" width="1144" height="2" fill="#06b6d4" opacity="0.35"/>
+
+  <!-- Grid of neon cards -->
+  <!-- Each card: category title + animated dots -->
+  <g transform="translate(32,84)" filter="url(#glow)" font-family="Verdana,Segoe UI,Arial,sans-serif">
+    <!-- Languages & Frameworks -->
+    <g>
+      <rect width="360" height="110" rx="12" fill="#101b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="16" y="28" font-size="16" fill="#93c5fd">Languages &amp; Frameworks</text>
+      <text x="16" y="56" font-size="14" fill="#e2e8f0">PHP • Laravel • JavaScript • HTML • CSS • Flutter</text>
+      <circle cx="330" cy="80" r="3" fill="#00E5FF">
+        <animate attributeName="cx" values="330;20;330" dur="6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <!-- Web & CMS -->
+    <g transform="translate(392,0)">
+      <rect width="360" height="110" rx="12" fill="#101b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="16" y="28" font-size="16" fill="#93c5fd">Web &amp; CMS</text>
+      <text x="16" y="56" font-size="14" fill="#e2e8f0">WordPress • Tailwind • Bootstrap</text>
+      <rect x="16" y="70" width="328" height="4" fill="#0b1120"/>
+      <rect x="16" y="70" width="180" height="4" fill="url(#neon)">
+        <animate attributeName="width" values="0;180;220;180" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <!-- Databases -->
+    <g transform="translate(784,0)">
+      <rect width="360" height="110" rx="12" fill="#101b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="16" y="28" font-size="16" fill="#93c5fd">Databases</text>
+      <text x="16" y="56" font-size="14" fill="#e2e8f0">MySQL</text>
+      <circle cx="40" cy="80" r="3" fill="#FF00C7">
+        <animate attributeName="cy" values="80;90;80" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="60" cy="80" r="3" fill="#7C3AED">
+        <animate attributeName="cy" values="80;70;80" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="80" cy="80" r="3" fill="#00E5FF">
+        <animate attributeName="cy" values="80;92;80" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- DevOps & Tools -->
+    <g transform="translate(0,130)">
+      <rect width="360" height="110" rx="12" fill="#101b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="16" y="28" font-size="16" fill="#93c5fd">DevOps &amp; Tools</text>
+      <text x="16" y="56" font-size="14" fill="#e2e8f0">Git • GitHub • Linux • Nginx • aaPanel</text>
+      <rect x="16" y="70" width="328" height="4" fill="#0b1120"/>
+      <rect x="16" y="70" width="260" height="4" fill="url(#neon)">
+        <animate attributeName="width" values="0;260;220;260" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <!-- Marketing & Analytics -->
+    <g transform="translate(392,130)">
+      <rect width="360" height="110" rx="12" fill="#101b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="16" y="28" font-size="16" fill="#93c5fd">Marketing &amp; Analytics</text>
+      <text x="16" y="56" font-size="14" fill="#e2e8f0">GSC • GA • Meta Ads • TikTok Ads • UTM • A/B</text>
+      <circle cx="20" cy="80" r="3" fill="#00E5FF">
+        <animate attributeName="cx" values="20;340;20" dur="6.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <!-- Notes -->
+    <g transform="translate(784,130)">
+      <rect width="360" height="110" rx="12" fill="#101b3a" stroke="url(#neon)" stroke-width="1"/>
+      <text x="16" y="28" font-size="16" fill="#93c5fd">Notes</text>
+      <text x="16" y="56" font-size="14" fill="#e2e8f0">Tools I use to build, monitor, and scale web projects</text>
+      <rect x="16" y="70" width="328" height="2" fill="url(#neon)">
+        <animate attributeName="x" values="16;48;16" dur="4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>
+
+

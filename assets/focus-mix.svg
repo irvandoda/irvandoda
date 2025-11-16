@@ -18,9 +18,7 @@
 
   <rect width="1100" height="320" fill="url(#bg)"/>
 
-  <g font-family="Verdana,Segoe UI,Arial,sans-serif" fill="#cbd5e1">
-    <text x="32" y="40" font-size="22" fill="#a5b4fc">Focus Mix — Animated</text>
-  </g>
+  <!-- Removed heading to show only the charts -->
 
   <!-- Bar component: label at left, bar bg, animated bar fg to target width, percent at right -->
   <!-- Layout vars -->
