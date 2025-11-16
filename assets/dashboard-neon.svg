@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Irvandoda Neon KPI Dashboard">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1f"/>
+      <stop offset="100%" stop-color="#0f1936"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#FF00C7"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b1"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="b2"/>
+      <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a2450" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)" opacity="0.35"/>
+
+  <g font-family="Verdana,Segoe UI,Arial,sans-serif">
+    <text x="32" y="48" font-size="22" fill="#a5b4fc">Futuristic Metrics Dashboard</text>
+    <rect x="28" y="60" width="1144" height="2" fill="#0ea5e9" opacity="0.35"/>
+  </g>
+
+  <!-- KPI Cards Row 1 -->
+  <g transform="translate(28,80)" filter="url(#softGlow)">
+    <!-- Card template: x, title, value, bar% -->
+    <!-- Commits -->
+    <g transform="translate(0,0)">
+      <rect rx="12" ry="12" width="270" height="110" fill="#0f1b3a" stroke="url(#glow)" stroke-width="1" opacity="0.9"/>
+      <text x="16" y="28" font-size="16" fill="#93c5fd">Commits (12m)</text>
+      <text x="16" y="56" font-size="28" fill="#e2e8f0" font-weight="700">1,240</text>
+      <rect x="16" y="72" width="238" height="8" fill="#0b1120" rx="4"/>
+      <rect x="16" y="72" width="190" height="8" fill="url(#glow)" rx="4">
+        <animate attributeName="width" values="0;190;180;190" dur="6s" repeatCount="indefinite"/>
+      </rect>
+      <text x="16" y="98" font-size="12" fill="#a5b4fc">Trend</text>
+    </g>
+    <!-- Repositories -->
+    <g transform="translate(292,0)">
+      <rect rx="12" ry="12" width="270" height="110" fill="#0f1b3a" stroke="url(#glow)" stroke-width="1" opacity="0.9"/>
+      <text x="16" y="28" font-size="16" fill="#93c5fd">Public Repos</text>
+      <text x="16" y="56" font-size="28" fill="#e2e8f0" font-weight="700">42</text>
+      <rect x="16" y="72" width="238" height="8" fill="#0b1120" rx="4"/>
+      <rect x="16" y="72" width="140" height="8" fill="url(#glow)" rx="4">
+        <animate attributeName="width" values="0;140;150;140" dur="7s" repeatCount="indefinite"/>
+      </rect>
+      <text x="16" y="98" font-size="12" fill="#a5b4fc">Growth</text>
+    </g>
+    <!-- Code Time (placeholder) -->
+    <g transform="translate(584,0)">
+      <rect rx="12" ry="12" width="270" height="110" fill="#0f1b3a" stroke="url(#glow)" stroke-width="1" opacity="0.9"/>
+      <text x="16" y="28" font-size="16" fill="#93c5fd">Code Time</text>
+      <text x="16" y="56" font-size="28" fill="#e2e8f0" font-weight="700">~</text>
+      <rect x="16" y="72" width="238" height="8" fill="#0b1120" rx="4"/>
+      <rect x="16" y="72" width="90" height="8" fill="url(#glow)" rx="4">
+        <animate attributeName="width" values="0;90;120;90" dur="5s" repeatCount="indefinite"/>
+      </rect>
+      <text x="16" y="98" font-size="12" fill="#a5b4fc">Configure WakaTime</text>
+    </g>
+    <!-- Uptime -->
+    <g transform="translate(876,0)">
+      <rect rx="12" ry="12" width="270" height="110" fill="#0f1b3a" stroke="url(#glow)" stroke-width="1" opacity="0.9"/>
+      <text x="16" y="28" font-size="16" fill="#93c5fd">Project Uptime</text>
+      <text x="16" y="56" font-size="28" fill="#e2e8f0" font-weight="700">99.9%</text>
+      <rect x="16" y="72" width="238" height="8" fill="#0b1120" rx="4"/>
+      <rect x="16" y="72" width="230" height="8" fill="url(#glow)" rx="4">
+        <animate attributeName="width" values="0;230;220;230" dur="6s" repeatCount="indefinite"/>
+      </rect>
+      <text x="16" y="98" font-size="12" fill="#a5b4fc">Monitoring</text>
+    </g>
+  </g>
+
+  <!-- KPI Cards Row 2 -->
+  <g transform="translate(28,210)" filter="url(#softGlow)">
+    <!-- Response Time -->
+    <g transform="translate(0,0)">
+      <rect rx="12" ry="12" width="390" height="120" fill="#0f1b3a" stroke="url(#glow)" stroke-width="1" opacity="0.9"/>
+      <text x="16" y="30" font-size="16" fill="#93c5fd">Avg Response Time (ms)</text>
+      <text x="16" y="58" font-size="28" fill="#e2e8f0" font-weight="700">210</text>
+      <rect x="16" y="76" width="358" height="8" fill="#0b1120" rx="4"/>
+      <rect x="16" y="76" width="240" height="8" fill="url(#glow)" rx="4">
+        <animate attributeName="width" values="0;240;260;240" dur="6s" repeatCount="indefinite"/>
+      </rect>
+      <text x="16" y="102" font-size="12" fill="#a5b4fc">Lower is better</text>
+    </g>
+    <!-- Deploys -->
+    <g transform="translate(406,0)">
+      <rect rx="12" ry="12" width="390" height="120" fill="#0f1b3a" stroke="url(#glow)" stroke-width="1" opacity="0.9"/>
+      <text x="16" y="30" font-size="16" fill="#93c5fd">Deploys (30d)</text>
+      <text x="16" y="58" font-size="28" fill="#e2e8f0" font-weight="700">18</text>
+      <rect x="16" y="76" width="358" height="8" fill="#0b1120" rx="4"/>
+      <rect x="16" y="76" width="180" height="8" fill="url(#glow)" rx="4">
+        <animate attributeName="width" values="0;180;220;180" dur="7s" repeatCount="indefinite"/>
+      </rect>
+      <text x="16" y="102" font-size="12" fill="#a5b4fc">Stable releases</text>
+    </g>
+    <!-- Issues Closed -->
+    <g transform="translate(812,0)">
+      <rect rx="12" ry="12" width="360" height="120" fill="#0f1b3a" stroke="url(#glow)" stroke-width="1" opacity="0.9"/>
+      <text x="16" y="30" font-size="16" fill="#93c5fd">Issues Closed</text>
+      <text x="16" y="58" font-size="28" fill="#e2e8f0" font-weight="700">76</text>
+      <rect x="16" y="76" width="328" height="8" fill="#0b1120" rx="4"/>
+      <rect x="16" y="76" width="260" height="8" fill="url(#glow)" rx="4">
+        <animate attributeName="width" values="0;260;240;260" dur="5.5s" repeatCount="indefinite"/>
+      </rect>
+      <text x="16" y="102" font-size="12" fill="#a5b4fc">Resolution rate</text>
+    </g>
+  </g>
+
+  <!-- Moving light bar -->
+  <rect x="-200" y="345" width="240" height="4" fill="url(#glow)" opacity="0.7">
+    <animate attributeName="x" values="-200;1200;-200" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>
+
+

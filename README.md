@@ -40,6 +40,13 @@
 
 </div>
 
+<div align="center">
+
+<br/>
+<img src="/assets/dashboard-neon.svg" alt="Neon KPI dashboard for Irvandoda" width="100%" />
+
+</div>
+
 
 ### Focus Mix
 
@@ -178,6 +185,24 @@
 - Analytics-driven SEO and content ops
 
 
+## Activity Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=irvandoda&theme=tokyo-night&hide_border=true" alt="GitHub activity graph for Irvandoda" width="100%" />
+
+</div>
+
+
+## Skills Radar (Animated)
+
+<div align="center">
+
+<img src="/assets/skills-radar.svg" alt="Animated skills radar for Irvandoda" width="720" />
+
+</div>
+
+
 ## Connect With Me
 
 <div align="center">
@@ -212,4 +237,5 @@ Notes for maintenance:
 - GitHub stats services used: github-readme-stats (vercel), streak-stats (demolab). You can tweak themes, hide languages, or change layout via query params.
 - If you want an activity graph, consider adding: https://github-readme-activity-graph.vercel.app/graph?username=irvandoda&theme=tokyo-night&hide_border=true
 - Typing SVG is from readme-typing-svg; adjust lines, size, and colors as you like.
+- For richer animation (snake contributions), set up a workflow that outputs to /output/snake.svg and embed it in this README.
 -->

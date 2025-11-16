@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-label="Irvandoda Animated Skills Radar">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1f"/>
+      <stop offset="100%" stop-color="#0f1936"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#FF00C7"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b1"/>
+      <feGaussianBlur stdDeviation="8" result="b2"/>
+      <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="420" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="450" y="44" text-anchor="middle" font-family="Verdana,Segoe UI,Arial,sans-serif" font-size="20" fill="#a5b4fc">
+    Skills Radar — Web Dev • SEO • IT • Marketing
+  </text>
+
+  <g transform="translate(450,220)" font-family="Verdana,Segoe UI,Arial,sans-serif">
+    <!-- Radar grid -->
+    <g opacity="0.35">
+      <polygon points="0,-160 152,-48 94,132 -94,132 -152,-48" fill="none" stroke="#1a2450"/>
+      <polygon points="0,-120 114,-36 70,99 -70,99 -114,-36" fill="none" stroke="#1a2450"/>
+      <polygon points="0,-80 76,-24 47,66 -47,66 -76,-24" fill="none" stroke="#1a2450"/>
+      <polygon points="0,-40 38,-12 24,33 -24,33 -38,-12" fill="none" stroke="#1a2450"/>
+    </g>
+
+    <!-- Axes -->
+    <g stroke="#2dd4bf" opacity="0.5">
+      <line x1="0" y1="0" x2="0" y2="-170"/>
+      <line x1="0" y1="0" x2="162" y2="-52"/>
+      <line x1="0" y1="0" x2="100" y2="140"/>
+      <line x1="0" y1="0" x2="-100" y2="140"/>
+      <line x1="0" y1="0" x2="-162" y2="-52"/>
+    </g>
+
+    <!-- Labels -->
+    <g font-size="14" fill="#cbd5e1">
+      <text x="0" y="-188" text-anchor="middle">Web Dev</text>
+      <text x="186" y="-56" text-anchor="start">SEO</text>
+      <text x="118" y="162" text-anchor="start">Marketing</text>
+      <text x="-118" y="162" text-anchor="end">IT Support</text>
+      <text x="-186" y="-56" text-anchor="end">Infra</text>
+    </g>
+
+    <!-- Animated polygon (skill shape) -->
+    <!-- Points roughly represent 0..1 scale along each axis -->
+    <polygon id="skillShape" points="0,-140 138,-44 80,112 -84,116 -130,-42"
+             fill="rgba(124,58,237,0.18)" stroke="url(#neon)" stroke-width="2" filter="url(#glow)">
+      <animate attributeName="points"
+               values="0,-140 138,-44 80,112 -84,116 -130,-42;
+                       0,-150 150,-48 92,120 -92,120 -138,-48;
+                       0,-140 138,-44 80,112 -84,116 -130,-42"
+               dur="8s" repeatCount="indefinite"/>
+    </polygon>
+
+    <!-- Pulsing node markers -->
+    <g fill="#00E5FF" opacity="0.9" filter="url(#glow)">
+      <circle r="4">
+        <animate attributeName="cx" values="0;0;0" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="-140;-150;-140" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="4">
+        <animate attributeName="cx" values="138;150;138" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="-44;-48;-44" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="4">
+        <animate attributeName="cx" values="80;92;80" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="112;120;112" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="4">
+        <animate attributeName="cx" values="-84;-92;-84" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="116;120;116" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="4">
+        <animate attributeName="cx" values="-130;-138;-130" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="-42;-48;-42" dur="6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(100,360)" font-family="Verdana,Segoe UI,Arial,sans-serif" font-size="14" fill="#cbd5e1">
+    <rect x="0" y="-18" width="12" height="12" fill="rgba(124,58,237,0.4)" stroke="#7C3AED" />
+    <text x="20" y="-8">Current Level</text>
+    <rect x="170" y="-18" width="12" height="12" fill="none" stroke="#2dd4bf" />
+    <text x="190" y="-8">Axis</text>
+  </g>
+</svg>
+
+
