@@ -1,15 +1,15 @@
 <svg width="1000" height="300" viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1000" height="300" fill="url(#paint0_linear)" />
+  <rect width="1000" height="300" fill="#F8FAFC" />
   <defs>
     <linearGradient id="paint0_linear" x1="0" y1="0" x2="1000" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0F172A" />
-      <stop offset="1" stop-color="#1E293B" />
+      <stop stop-color="#00D2FF" />
+      <stop offset="1" stop-color="#0081FF" />
     </linearGradient>
   </defs>
   <style>
-    .header { font: bold 55px 'Segoe UI', Arial, sans-serif; fill: #38BDF8; font-style: italic; }
-    .subheader { font: 22px 'Segoe UI', Arial, sans-serif; fill: rgba(255,255,255,0.7); letter-spacing: 4px; text-transform: uppercase; }
-    .line { stroke: #38BDF8; stroke-width: 2; opacity: 0.3; }
+    .header { font: bold 55px 'Segoe UI', Arial, sans-serif; fill: #00D2FF; font-style: italic; filter: drop-shadow(0px 2px 4px rgba(0,210,255,0.3)); }
+    .subheader { font: 22px 'Segoe UI', Arial, sans-serif; fill: #64748B; letter-spacing: 4px; text-transform: uppercase; }
+    .line { stroke: #00D2FF; stroke-width: 2; opacity: 0.2; }
   </style>
   <line x1="100" y1="50" x2="900" y2="50" class="line" />
   <text x="500" y="145" text-anchor="middle" class="header">IRVANDO DEMAS</text>
