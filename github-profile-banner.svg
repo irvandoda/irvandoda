@@ -1,0 +1,17 @@
+﻿<svg width="1000" height="300" viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="300" fill="url(#paint0_linear)" />
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1000" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D2FF" />
+      <stop offset="1" stop-color="#3A7BD5" />
+    </linearGradient>
+  </defs>
+  <style>
+    .header { font: bold 60px 'Segoe UI', Arial, sans-serif; fill: white; animation: fadeIn 2s ease-in-out; }
+    .subheader { font: 24px 'Segoe UI', Arial, sans-serif; fill: rgba(255,255,255,0.8); letter-spacing: 2px; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+  <text x="500" y="140" text-anchor="middle" class="header">Building Digital Eco-Systems</text>
+  <text x="500" y="200" text-anchor="middle" class="subheader">MARKETING AUTOMATION | CLOUD ARCHITECTURE | WEB CONSULTANCY</text>
+  <path d="M0 250 Q 250 300 500 250 Q 750 200 1000 250 V 300 H 0 V 250Z" fill="white" fill-opacity="0.1" />
+</svg>

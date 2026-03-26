@@ -2,7 +2,7 @@
 ### 🌐 Digital Strategist • DevOps Engineer • Fullstack Developer
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=rect&color=00d2ff&height=300&section=header&text=Building%20Digital%20Eco-Systems&fontSize=60&animation=fadeIn&fontAlignY=40&desc=Marketing%20Automation%20|%20Cloud%20Architecture%20|%20Web%20Consultancy&descAlignY=60&descSize=20" width="100%" />
+  <img src="github-profile-banner.svg" width="100%" />|<img src="github-profile-banner.svg" width="100%" />|<img src="github-profile-banner.svg" width="100%" />
 </p>
 
 ---
