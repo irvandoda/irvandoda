@@ -1,53 +1,93 @@
-﻿<div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=auto&height=200&section=header&text=Irvando%20D.A&fontSize=80&animation=fadeIn" width="100%" />
+﻿# <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Irvando Demas Arifiandani
+### 🌐 Digital Strategist • DevOps Engineer • Fullstack Developer
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/render?type=rect&color=00d2ff&height=300&section=header&text=Building%20Digital%20Eco-Systems&fontSize=60&animation=fadeIn&fontAlignY=40&desc=Marketing%20Automation%20|%20Cloud%20Architecture%20|%20Web%20Consultancy&descAlignY=60&descSize=20" width="100%" />
+</p>
+
+---
+
+## 🚀 Personal Branding & Strategy
+> **Bridging the gap between code and conversions.** 
+
+I specialize in creating end-to-end digital solutions that don't just "work"—they **resonate**. By combining the technical precision of **DevOps** with the growth-focused mindset of **Digital Marketing**, I help businesses scale their presence and automate their success.
+
+- 📈 **Digital Marketing & SEO**: Expert in technical SEO, conversion rate optimization (CRO), and data-driven marketing strategy.
+- ⚙️ **DevOps & Cloud**: Orchestrating scalable infrastructures using Docker, Linux server management, and automated deployment pipelines.
+- 💻 **Development**: Engineering robust digital products using the Laravel ecosystem and WordPress enterprise solutions.
+
+---
+
+## 🛠️ The Tech Ecosystem
+<table align="center" width="100%">
+  <tr>
+    <td width="33%" align="center"><b>Digital Marketing</b></td>
+    <td width="33%" align="center"><b>DevOps & Infrastructure</b></td>
+    <td width="34%" align="center"><b>Web Engineering</b></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/SEO_Optimization-0052cc?style=flat-square&logo=google-search-console&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Growth_Hacking-ff4500?style=flat-square&logo=rocket&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Analytics-E37400?style=flat-square&logo=google-analytics&logoColor=white" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Linux_Server-FCC624?style=flat-square&logo=linux&logoColor=black" /><br/>
+      <img src="https://img.shields.io/badge/CI/CD_Automations-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/WordPress_Pro-21759B?style=flat-square&logo=wordpress&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🌟 Featured Projects & Digital Assets
+<div align="center">
+  <table width="100%">
+    <tr>
+      <td width="50%">
+        <h4>💎 SQPay Ecosystem</h4>
+        <p>Enterprise-grade sales and payment systems for digital service scalability.</p>
+        <a href="https://sqpay.irvandoda.my.id">View Live Site →</a>
+      </td>
+      <td width="50%">
+        <h4>🌍 Lintas Pariwisata</h4>
+        <p>A fully optimized travel portal focused on SEO performance and user experience.</p>
+        <a href="https://lintaspariwisata.my.id">View Live Site →</a>
+      </td>
+    </tr>
+  </table>
 </div>
 
-<div align="center">
-  <h3>🚀 Fullstack Developer | WordPress Specialist | Server Management</h3>
-  <p>Building high-performance web applications and digital solutions.</p>
-</div>
+---
 
-<hr />
+## 📊 Performance Metrics & Activity
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=irvandoda&show_icons=true&theme=aura_dark&count_private=true&hide_border=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=irvandoda&theme=aura_dark&hide_border=true" width="48%" />
+</p>
 
-### 👤 About Me
-- 👋 Hi, I'm **Irvando D.A**
-- 🛠️ Developer with experience in **PHP (Laravel), WordPress, and Mobile Development (Android)**.
-- 🌐 Managing and maintaining 30+ production domains and servers.
-- ⚡ I'm focused on **scalability, performance, and security**.
-- 📬 Reach out at: [irvando.d.a@gmail.com](mailto:irvando.d.a@gmail.com)
+---
 
-<hr />
+## 📬 Connect & Collaborate
+<p align="center">
+<a href="https://irvandoda.my.id"><img src="https://img.shields.io/badge/Portfolio-irvandoda.my.id-0077B5?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
+<a href="https://www.tiktok.com/@irvandoda"><img src="https://img.shields.io/badge/TikTok-@irvandoda-EE1D52?style=for-the-badge&logo=tiktok&logoColor=white" /></a>
+<a href="https://twitter.com/irvandoda"><img src="https://img.shields.io/badge/Twitter-@irvandoda-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
+<a href="mailto:irvando.d.a@gmail.com"><img src="https://img.shields.io/badge/Email-irvando.d.a@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
 
-### 🛠️ Tech Stack & Skills
-<div align="center">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laragon-1E2B3C?style=for-the-badge&logo=laragon&logoColor=white" />
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/irvandoda/irvandoda/main/github-profile-3d-contrib.svg" alt="3D Contrib" width="100%" />
+</p>
 
-<hr />
-
-### 📊 GitHub Stats
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=irvandoda&show_icons=true&theme=tokyonight&count_private=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=irvandoda&theme=tokyonight" width="48%" />
-</div>
+<hr/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=irvandoda&layout=compact&theme=tokyonight&hide=html,css" width="48%" />
-</div>
-
-<hr />
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-</div>
-
-<div align="center">
-  <sub>Let's build something amazing together. ✨</sub>
+  <sub>Managed with 💙 by Irvando Demas | Digital Strategy & Cloud Engineering</sub>
 </div>
