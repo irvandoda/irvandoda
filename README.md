@@ -20,6 +20,22 @@ Dengan pendekatan **teknis + strategi bisnis**, saya tidak hanya membuat sistem,
 
 ---
 
+## 🚀 Featured Projects & Case Studies (Spill Tipis-Tipis 😉)
+Berikut adalah gambaran beberapa sistem skala besar yang telah saya bangun dan kelola (beberapa dalam repository private untuk menjaga kerahasiaan klien):
+
+| Project Area | Description | Status |
+|:---|:---|:---|
+| **Sistem Pembayaran (FinTech)** | Arsitektur gerbang pembayaran kustom dengan tingkat keamanan tinggi untuk transaksi real-time. | 🔒 Protected |
+| **Media & News Network** | Jaringan portal berita dengan optimasi SEO tingkat lanjut, mampu menangani ribuan artikel dan trafik tinggi. | 🔑 Private |
+| **Enterprise ERP & CRM** | Sistem manajemen sumber daya perusahaan terintegrasi untuk otomatisasi operasional bisnis. | 🔒 Protected |
+| **E-Commerce Ecosystem** | Platform belanja online yang dioptimalkan untuk performa mobile dan konversi penjualan (closing). | 🔑 Private |
+| **Health Tech Solutions** | Aplikasi manajemen layanan kesehatan (BPJS Friendly) dengan integrasi data yang akurat. | 🔒 Protected |
+
+> [!TIP]
+> **Penasaran dengan detail implementasinya?** Setiap proyek di atas memiliki tantangan teknis unik dalam hal skalabilitas dan keamanan. Mari berdiskusi untuk membangun sistem serupa yang disesuaikan dengan kebutuhan bisnis Anda.
+
+---
+
 ## 🔥 What I Can Do For You
 
 ✅ **Website UMKM / Company Profile** — Branding digital yang kuat dan profesional.  
@@ -38,16 +54,10 @@ Dengan pendekatan **teknis + strategi bisnis**, saya tidak hanya membuat sistem,
 - **Mobile**: Flutter Pro, Dart
 - **Web**: Laravel, React, PHP Pro
 - **Database**: MySQL, PostgreSQL, MariaDB
-- **Design**: Responsive UI/UX, Tailwind CSS
 
 **☁️ Infrastructure**
 - **OS/Server**: Linux Server, NGINX, Ubuntu
 - **Cloud/Ops**: Cloudflare, VPS Management, CI/CD Pipelines, Docker
-
-**📈 Digital Strategy**
-- **SEO**: Technical SEO, LSI Keywords
-- **Analytics**: Google Analytics, Search Console
-- **Growth**: Conversion Rate Optimization, Growth Hacking
 
 ---
 
@@ -57,7 +67,6 @@ Dengan pendekatan **teknis + strategi bisnis**, saya tidak hanya membuat sistem,
 ✔️ **Clean & Scalable Architecture** — Kode yang rapi dan siap dikembangkan di masa depan.  
 ✔️ **Business-Oriented Solutions** — Solusi yang didesain untuk profit, bukan sekadar coding.  
 ✔️ **Support & Maintenance Ready** — Pendampingan paska-launching untuk stabilitas sistem.  
-✔️ **Diskusi dari Nol** — Saya siap menjadi partner diskusi dari tahap ide hingga peluncuran 🚀.
 
 ---
 
@@ -65,7 +74,7 @@ Dengan pendekatan **teknis + strategi bisnis**, saya tidak hanya membuat sistem,
 
 💬 Saya terbuka untuk project freelance, kerja sama jangka panjang, maupun pembuatan sistem custom skala besar.
 
-- 📞 **WhatsApp**: [+62 857-4747-6308](https://wa.me/6285747476308?text=Halo%20Irvando%20Demas,%20saya%20tertarik%20untuk%20berdiskusi%20mengenai%20proyek%20digital.)  
+- 📞 **WhatsApp**: [+62 857-4747-6308](https://wa.me/6285747476308?text=Halo%20Irvando%20Demas,%20saya%20tertarik%20untuk%20berdiskusi%20mengenai%20proyek%20Featured%20Projects%20Anda.)  
 - 📧 **Email**: [irvando.d.a@gmail.com](mailto:irvando.d.a@gmail.com)  
 - 🌐 **Portfolio**: [https://irvandoda.my.id](https://irvandoda.my.id)  
 
